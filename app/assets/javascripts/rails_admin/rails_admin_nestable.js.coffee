@@ -1,4 +1,4 @@
-jQuery ->
+$(document).on 'turbolinks:load', ->
   updateNodes = (tree_nodes) ->
     serialized_tree = tree_nodes.nestable('serialize')
 
